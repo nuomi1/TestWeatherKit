@@ -15,6 +15,7 @@ Here is a SwiftUI app for `WeatherKit`, you can follow the steps below to run it
 
 Here is a Python 3 program for `WeatherKit`, you can follow the steps below to run it.
 
-1. Download P8 file from [Developer](https://developer.apple.com/account/resources/authkeys/list)
-2. Edit `CUSTOM_TEAM_ID`, `CUSTOM_SERVICE_ID|CUSTOM_APP_ID`, `CUSTOM_KEY_ID` and `CUSTOM_P8_FILE` in `Python3/get_token.py`
-3. Run the program via `main.py`
+1. Install `PyJWT` and `cryptography` via `pip3`
+2. Download P8 file from [Developer](https://developer.apple.com/account/resources/authkeys/list)
+3. Edit `CUSTOM_TEAM_ID`, `CUSTOM_SERVICE_ID|CUSTOM_APP_ID`, `CUSTOM_KEY_ID` and `CUSTOM_P8_FILE` in `Python3/get_token.py`
+4. Run the program via `main.py`
