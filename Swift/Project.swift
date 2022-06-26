@@ -20,6 +20,8 @@ import ProjectDescriptionHelpers
 // MARK: - Project
 
 // Creates our project using a helper function defined in ProjectDescriptionHelpers
-let project = Project.app(name: "TestWeatherKit",
-                          platform: .iOS,
-                          additionalTargets: ["TestWeatherKitKit", "TestWeatherKitUI"])
+let project = Project.app(
+    name: "TestWeatherKit",
+    platform: .iOS,
+    additionalTargets: ["TestWeatherKitKit", "TestWeatherKitUI"]
+)
